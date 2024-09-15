@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -9,8 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
-    padding: 12px 64px;
+    padding: 12px 128px;
 }
 
 .header h1 {
@@ -24,8 +24,50 @@
     color: white;
     list-style: none;
     display: flex;
+    font-size: 18px;
     margin: 0;
     padding: 0;
     gap: 16px;
 }
 
+.section-1 {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 64px 128px;
+    gap: 48px;
+}
+
+.s1-left {
+    flex: 1;
+    color: white;
+}
+
+.section-1 .header {
+    font-size: 48px;
+}
+
+.section-1 .subtext {
+    font-size: 18px;
+}
+
+.s1-right {
+    flex: 1;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    padding: 12px 48px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    margin: 24px 0px;
+}
