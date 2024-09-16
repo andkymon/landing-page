@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 128px;
+    padding: 12px 256px;
 }
 
 .header h1 {
@@ -35,7 +35,7 @@
     display: flex;
     justify-content: center;
     align-items: stretch;
-    padding: 64px 128px;
+    padding: 64px 256px;
     gap: 48px;
 }
 
@@ -75,7 +75,7 @@ button {
 
 .section-2 {
     background-color: white;
-    padding: 0px 128px;
+    padding: 64px 256px;
     text-align: center;
 }
 
@@ -83,7 +83,7 @@ button {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
-    padding: 64px;
+    margin-bottom: 64px;
 }
 
 .section-2 .container {
@@ -105,4 +105,24 @@ button {
     color: grey;
     width: 160px;
     margin: 8px 0px;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    padding: 64px 256px;
+}
+
+.section-3 .quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.section-3 .quotee {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
